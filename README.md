@@ -1,4 +1,4 @@
-🚀 Overview
+Overview
 
 This project implements several core image-processing filters:
 
@@ -14,7 +14,7 @@ Edge detection using derivatives of Gaussian
 
 All code is implemented manually using NumPy, SciPy, and Pillow — no OpenCV or high-level libraries.
 
-🧠 What This Project Covers
+What This Project Covers
 1. 1D Gaussian Kernel
 
 Implemented using the analytical formula:
@@ -85,7 +85,7 @@ Gradient magnitude:
 
 This highlights edge strength independent of direction.
 
-⚙️ Implemented Functions
+Implemented Functions
 gauss(sigma)
 
 Returns a 1D Gaussian kernel and its x-values.
@@ -106,7 +106,7 @@ imgDx — derivative along x
 
 imgDy — derivative along y
 
-🖼️ Outputs Produced
+Outputs Produced
 
 Plot of 1D Gaussian
 
@@ -124,7 +124,7 @@ Vertical (Dy)
 
 Gradient magnitude
 
-▶️ How to Run
+How to Run
 
 Install dependencies:
 
